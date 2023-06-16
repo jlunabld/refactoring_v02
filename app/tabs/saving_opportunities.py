@@ -2,6 +2,7 @@ import dash_bootstrap_components as dbc
 from dash import html
 
 def savings_opportunities():
+    """This function returns the Savings Opportunities tab."""
     return dbc.Tab(
         label="Savings Opportunities",
         className="border-primary text-dark",

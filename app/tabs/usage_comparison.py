@@ -2,6 +2,7 @@ import dash_bootstrap_components as dbc
 from dash import html
 
 def usage_comparison():
+    """This function returns the Usage Comparison tab."""
     return dbc.Tab(
         label="YTD Bldng Usage Comparison Chart",
         className="border-primary text-dark",
