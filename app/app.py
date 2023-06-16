@@ -7,6 +7,7 @@ from tabs.usage_comparison import usage_comparison
 
 
 class RMSDashboard:
+    """ This class creates the RMS Dashboard. """
     def __init__(self):
         self.app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
         self.set_layout()
